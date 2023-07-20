@@ -1,0 +1,34 @@
+name: edu_guru
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.19.6 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter_native_splash: 2.3.1
+  another_flushbar: 1.12.30
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: 2.0.2
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/
+    - assets/background.png
+  uses-material-design: true
+
+flutter_native_splash:
+  color: "#0E865B"
+  image: assets/splash/splash.png
+  android_12:
+    image: assets/splash/splash.png
+    icon_background_color: "#0E865B"
+  ios: true
+  web: false
